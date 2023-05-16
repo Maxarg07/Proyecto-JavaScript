@@ -1,0 +1,28 @@
+body{
+    background: rgb(65,197,235);
+    background: linear-gradient(180deg, rgba(65,197,235,1) 0%, rgba(7,18,217,1) 100%);
+}
+
+.demo-card-square{
+    position: relative;
+    border-radius: 5px;
+}
+
+.mdl-card__title{
+    height: 100px;
+}
+
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .demo-card-square > .mdl-card__title {
+    color: #ffffff;
+    background: url('../assets/Edificio.jpg');
+    background-position: center;
+    background-size: cover;
+  }
