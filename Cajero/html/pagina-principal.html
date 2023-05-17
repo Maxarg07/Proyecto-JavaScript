@@ -38,49 +38,62 @@
                     <a class="mdl-navigation__link" href="">Acerca de</a>
                 </nav>
             </div>
-            <main class="mdl-layout__content">
-            </main>
         </div>
     </header>
 
     <!--Contenido-->
     <!--Tabla-->
     <table class="mdl-data-table mdl-js-data-table">
-        <thead>
-          <tr>
-            <th class="mdl-data-table__cell--non-numeric">Name</th>
-            <th class="mdl-data-table__cell--non-numeric">Nickname</th>
-            <th>Age</th>
-            <th class="mdl-data-table__cell--non-numeric">Living?</th>
-          </tr>
-        </thead>
+
+        <td colspan="4" class="tarjeta">
+            <div class="datos">
+                <div>
+                    <h5>0000 1234 9784</h5>
+                </div>
+                <div>
+                    Valido hasta 07/28
+                </div>
+                <div>
+                    CVV <label>***</label>
+                </div>
+            </div>
+          
+        </td>
         <tbody>
-          <tr>
-            <td class="mdl-data-table__cell--non-numeric">John Lennon</td>
-            <td class="mdl-data-table__cell--non-numeric">The smart one</td>
-            <td>40</td>
-            <td class="mdl-data-table__cell--non-numeric">No</td>
-          </tr>
-          <tr>
-            <td class="mdl-data-table__cell--non-numeric">Paul McCartney</td>
-            <td class="mdl-data-table__cell--non-numeric">The cute one</td>
-            <td>73</td>
-            <td class="mdl-data-table__cell--non-numeric">Yes</td>
-          </tr>
-          <tr>
-            <td class="mdl-data-table__cell--non-numeric">George Harrison</td>
-            <td class="mdl-data-table__cell--non-numeric">The shy one</td>
-            <td>58</td>
-            <td class="mdl-data-table__cell--non-numeric">No</td>
-          </tr>
-          <tr>
-            <td class="mdl-data-table__cell--non-numeric">Ringo Starr</td>
-            <td class="mdl-data-table__cell--non-numeric">The funny one</td>
-            <td>74</td>
-            <td class="mdl-data-table__cell--non-numeric">Yes</td>
-          </tr>
+            <tr>
+                <td colspan="4">
+                    <label>
+                        Saldo actual:<input type="text" id="saldo" name="Saldo" />
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="depositar">
+                    Depositar
+                    </button></td>
+                <td>
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" id="">
+                            <label class="mdl-textfield__label" for="sample3">Cantidad</label>
+                        </div>
+                    </form>
+                </td>
+
+                <td><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="retirar">
+                    Retirar
+                </button></td>
+                <td>
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" id="">
+                            <label class="mdl-textfield__label" for="sample3">Cantidad</label>
+                        </div>
+                    </form>
+                </td>
+            </tr>
         </tbody>
-      </table>
+    </table>
 
     <footer>
         

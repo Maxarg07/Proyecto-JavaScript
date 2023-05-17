@@ -55,4 +55,22 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+
   }
+  .mdl-data-table td{
+    text-align: center;
+  }
+
+.tarjeta{
+  background: url(..//assets/Tarjeta.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.datos{
+  text-align: center;
+  color: antiquewhite;
+}
