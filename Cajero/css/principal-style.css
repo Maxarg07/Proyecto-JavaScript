@@ -3,6 +3,7 @@ body{
   background: linear-gradient(180deg, rgba(65,197,235,1) 0%, rgba(7,18,217,1) 100%);
 }
 
+/*Header*/
 /*<!-- Uses a transparent header that draws on top of the layout's background -->*/
 .demo-layout-transparent {
   background: url('../assets/demos/transparent.jpg') center / cover;
@@ -12,4 +13,18 @@ body{
   /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
   color: black;
+}
+
+
+/*Contenido*/
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
 }

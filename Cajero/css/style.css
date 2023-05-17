@@ -3,6 +3,8 @@ body{
     background: linear-gradient(180deg, rgba(65,197,235,1) 0%, rgba(7,18,217,1) 100%);
 }
 
+/*Estilo del loggin*/
+
 .demo-card-square{
     position: relative;
     border-radius: 5px;
@@ -30,3 +32,5 @@ body{
   .mdl-button, .mdl-card__actions{
     color: blue;    
   }
+
+  /*Estilo de la pagina principal*/
