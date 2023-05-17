@@ -26,3 +26,7 @@ body{
     background-position: center;
     background-size: cover;
   }
+
+  .mdl-button, .mdl-card__actions{
+    color: blue;    
+  }
