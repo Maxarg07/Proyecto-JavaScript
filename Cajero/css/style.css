@@ -3,7 +3,7 @@ body{
     background: linear-gradient(180deg, rgba(65,197,235,1) 0%, rgba(7,18,217,1) 100%);
 }
 
-/*Estilo del loggin*/
+/*Estilo del login*/
 
 .demo-card-square{
     position: relative;
@@ -58,7 +58,6 @@ body{
     text-align: center;
     width: 400px;
     height: 450px;
-
   }
   .mdl-data-table td{
     text-align: center;
@@ -74,3 +73,4 @@ body{
   text-align: center;
   color: antiquewhite;
 }
+
