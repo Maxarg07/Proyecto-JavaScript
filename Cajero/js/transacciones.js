@@ -16,7 +16,7 @@ function depositar(){
         let saldo = localStorage.getItem("saldo");
         let saldoDeposito = parseInt(saldo) + deposito;
         localStorage.setItem("saldo",saldoDeposito)
-        document.getElementById('saldo').innerHtml = localStorage.getItem("saldo");
+        document.getElementById('saldo').innerHTML = localStorage.getItem("saldo");
 
         alert("Deposito Realizado con exito")
     }
