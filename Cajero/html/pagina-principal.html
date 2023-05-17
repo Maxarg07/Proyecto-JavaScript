@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/transacciones.js"></script>
     <title>Pagina principal</title>
 </head>
 <body>
@@ -63,30 +64,30 @@
                 <td colspan="4">
                     <h4>Bienvenido Fulanito Perez Cosme</h4>
                     <label>
-                        Saldo actual: <label type="text" id="saldo" name="Saldo">0</label>
+                        Saldo actual: <label type="text" id="saldo" name="Saldo"></label>
                     </label>
                 </td>
             </tr>
             <tr>
-                <td><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="depositar">
+                <td><button onclick="depositar()" class="mdl-button mdl-js-button mdl-js-ripple-effect" id="depositar">
                     Depositar
                     </button></td>
                 <td>
                     <form action="#">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" id="">
+                            <input class="mdl-textfield__input" type="text" id="deposito">
                             <label class="mdl-textfield__label" for="sample3">Cantidad</label>
                         </div>
                     </form>
                 </td>
 
-                <td><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="retirar">
+                <td><button onclick="retirar()" class="mdl-button mdl-js-button mdl-js-ripple-effect" id="retirar">
                     Retirar
                 </button></td>
                 <td>
                     <form action="#">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" id="">
+                            <input class="mdl-textfield__input" type="text" id="retiro">
                             <label class="mdl-textfield__label" for="sample3">Cantidad</label>
                         </div>
                     </form>
